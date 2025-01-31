@@ -1,0 +1,66 @@
+/* 
+Paleta
+#59313C - Vermelho
+#262526 - Preto
+#253B59 - Azul
+#CCD5D9 - Branco
+#BF9C88 - Bege
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "MS UI Gothic";
+    color: #CCD5D9;
+    background-color: #59313C;
+}
+
+header, section, footer {
+    margin: auto;
+    position: relative;
+    width: 800px;
+}
+
+header {
+    background-color: #f2fbff;
+    color: #262526;
+    height: 200px;
+}
+
+#titulo {
+    color: #253B59;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#nome {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+header nav {
+    width: fit-content;
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    border: 1px solid white;
+}
+
+
+
+ul.barraNav {
+    list-style-type: none;
+}
+
+ul.barraNav li a {
+    text-decoration: none;
+    color: #253B59;
+}
+
+ul.barraNav li a:hover {
+    text-decoration: underline;
+}
