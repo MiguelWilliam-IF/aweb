@@ -2,7 +2,7 @@
 Paleta
 #59313C - Vermelho
 #262526 - Preto
-#253B59 - Azul
+#476289 - Azul
 #CCD5D9 - Branco
 #BF9C88 - Bege
 */
@@ -42,8 +42,14 @@ header {
     border-bottom: 3px dashed #262526;
 }
 
+header .balldivider {
+    position: absolute;
+    bottom: 10px;
+    left: 160px;
+}
+
 #titulo {
-    color: #253B59;
+    color: #476289;
     font-style: italic;
     font-size: 20px;
 
@@ -54,8 +60,8 @@ header {
 
 #nome {
     position: relative;
-    top: 30px;
-    left: 100px;
+    top: 25px;
+    left: 225px;
 }
 
 header nav {
@@ -67,17 +73,18 @@ header nav {
 
 ul.barraNav {
     list-style-type: none;
-    border-left: #253B59 3px solid;
+    border-left: #476289 3px solid;
     padding:2px 8px;
 }
 
 ul.barraNav li a {
     text-decoration: none;
-    color: #253B59;
+    color: #262526;
 }
 
 ul.barraNav li a:hover {
     text-decoration: underline;
+    color: #476289;
 }
 
 #Hero {
@@ -113,6 +120,49 @@ ul.barraNav li a:hover {
     transform: rotate(-30deg);
 }
 
-#bio1 p {
-    width: 400px;
+.paragrafo {
+    margin-bottom: 30px;
+}
+
+.paragrafo h1 {
+    text-align: center;
+    padding: 5px;
+}
+
+.paragrafo p {
+    text-align: justify;
+}
+
+.card {
+    background-color: #bf9c8887;
+    padding: 10px;
+    width: fit-content;
+    margin: 10px;
+}
+
+.card img {
+    width: 300px; 
+    height: 200px; 
+    object-fit: cover;
+    border: 1px solid black;
+}
+
+.card p {
+    max-width: 300px; 
+}
+
+#Cmusica img {
+    object-position: 0px 0px;
+}
+
+#Ccor img {
+    object-position: 0px -50px;
+}
+
+#Cirma img {
+    object-position: 0px 0px;
+}
+
+#Cdesenho img {
+    object-position: 0px -14px;
 }
