@@ -73,9 +73,11 @@ header img {
     margin: auto;
 
     text-align: center;
+
+    margin-bottom: 10px;
 }
 
-#Featured h2, #Featured p{
+#Featured h2, #Featured h4{
     margin: 10px auto;
 }
 
@@ -83,15 +85,77 @@ header img {
 
 .cardsContainer {
     display: flex;
+    
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card {
-    margin: 30px;
+    margin: 15px;
 }
 
 .card img {
     width: 300px;
     height: 200px;
+    margin-bottom: 10px;
+}
 
+
+
+
+#Locations {
+    background-image: url("resources/img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-top: 10px;
+}
+
+#Locations h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.locbox-container {
+    display: flex;
+    gap: 40px;
+
+    justify-content: center;
+}
+
+.loc-box {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    height: 300px;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#Ending {
+    height: 200px;
+    text-align: center;
+}
+
+#Ending h2 {
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+#Ending h5 {
+    padding: 15px;
+}
+
+footer p {
+    margin: 20px;
+    text-align: left;
 }
